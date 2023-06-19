@@ -79,9 +79,7 @@ function incrServoY() {
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", "/IncrY");
     xhttp.send();
-    setTimeout(function () {
-        console.log("Y incremented!");
-    }, 500); // Delay of 1 second (1000 milliseconds)
+    console.log("Y incremented!");
 }
 
 function decrServoY() {
@@ -90,9 +88,7 @@ function decrServoY() {
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", "/DecrY");
     xhttp.send();
-    setTimeout(function () {
-        console.log("Y decremented!");
-    }, 500); // Delay of 1 second (1000 milliseconds)
+    console.log("Y decremented!");
 }
 
 function incrServoZ() {
@@ -101,9 +97,7 @@ function incrServoZ() {
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", "/IncrZ");
     xhttp.send();
-    setTimeout(function () {
-        console.log("Z incremented!");
-    }, 500); // Delay of 1 second (1000 milliseconds)
+    console.log("Z incremented!");
 }
 
 function decrServoZ() {
@@ -112,9 +106,7 @@ function decrServoZ() {
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", "/DecrZ");
     xhttp.send();
-    setTimeout(function () {
-        console.log("Z decremented!");
-    }, 500); // Delay of 1 second (1000 milliseconds)
+    console.log("Z decremented!");
 }
 
 var radBtn = document.createElement("button");
